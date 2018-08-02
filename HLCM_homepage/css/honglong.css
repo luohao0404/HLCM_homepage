@@ -1,8 +1,16 @@
+body {
+  font-family:"Microsoft YaHei", "微软雅黑",'SimSun', sans-serif;
+}
+
 
 @media (min-width: 992px){
     .container {
         max-width: 100%;
     }
+
+    .navbar-expand-lg .navbar-collapse {
+      height: 10vh;
+}
 
 }
 
@@ -14,6 +22,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-top: 10vh;
 }
 
 .navbar {
@@ -27,20 +36,34 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0rem 1rem;
+
+width: 100%; /* 長さ */
+position: fixed; /* ヘッダーを固定(これが重要) */
+top: 0; /* 固定する位置 */
+left: 0; /* 固定する位置 */
+right: 0;  /* 固定する位置 */
+background-color: #ffffff;
+height: 10vh;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #212529;
 }
 
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.8);
+}
+
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #212529;
 }
 
+/*
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(255,255,255,1);
     background-color: #007bff;
 }
+*/
 
 .nav-item {
   vertical-align:middle;
@@ -49,7 +72,7 @@
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem;
-    height: 81px;
+    height: 10vh;
     padding-top: 30%;
 }
 
@@ -80,19 +103,20 @@
     padding-bottom: 20vh;
 }
 
-.row-color1 {
-    background: #ffb6b9;
+.row-color1, .li-color1:focus, .li-color1:hover {
+    background-color: #ffb6b9;
 }
 
-.row-color2 {
+
+.row-color2, .li-color2:focus, .li-color2:hover {
     background: #61c0bf;
 }
 
-.row-color3 {
+.row-color3, .li-color3:focus, .li-color3:hover {
     background: #bbded6;
 }
 
-.row-color4 {
+.row-color4 , .li-color4:focus, .li-color4:hover{
     background: #fae3d9;
 }
 
@@ -104,4 +128,11 @@
 .padding-10 {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.featurette-heading {
+   text-align: center;
+   letter-spacing: .5rem;
+   font-size: 3rem;
+   font-weight: bold;
 }

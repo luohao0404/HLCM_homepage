@@ -15,6 +15,34 @@
 
     <!-- Custom styles for this template -->
     <link href="css/honglong.css" rel="stylesheet">
+    <!-- animate.css -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- ico -->
+    <link rel="shortcut icon" href="img/logo/logo_favicon.ico">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <script type="text/javascript" src="vendor/jquery/jquery-ajax.js"></script>
+            <!-- scroll move slow -->
+        <script type="text/javascript">
+        $(function(){
+        	$('a[href^=#]').click(function(){
+        		var speed = 1000;
+        		var href= $(this).attr("href");
+        		var target = $(href == "#" || href == "" ? 'html' : href);
+        		var position = target.offset().top;
+        		$("html, body").animate({scrollTop:position}, speed, "swing");
+        		return false;
+        	});
+        });
+        </script>
 
   </head>
 
@@ -29,23 +57,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item li-color2">
               <a class="nav-link" href="#">最新资讯</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">企业理念</a>
+            <li class="nav-item li-color1">
+              <a class="nav-link" href="#vision">企业理念</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">事业内容</a>
+            <li class="nav-item li-color2">
+              <a class="nav-link" href="#business">事业内容</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">公司概况</a>
+            <li class="nav-item li-color3">
+              <a class="nav-link" href="#company">公司概况</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">招聘信息</a>
+            <li class="nav-item li-color4">
+              <a class="nav-link" href="#recruit">招聘信息</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">联系我们</a>
+            <li class="nav-item li-color1">
+              <a class="nav-link" href="#contact">联系我们</a>
             </li>
           </ul>
         </div>
@@ -111,65 +139,88 @@
 
     <div class="container marketing">
         <!-- START THE FEATURETTES -->
-        <div class="row featurette row-color1">
-          <div class="col-md-7 padding-10">
-            <h2 class="featurette-heading">企业理念<span class="text-muted">每个人都是创作者</span></h2>
+        <div class="row featurette row-color1" id="vision">
+          <div class="col-md-7 padding-10  animated fadeInDown">
+            <h1 class="featurette-heading">企业理念</h1>
+            <br>
+            <h2><span class="text-muted"><i class="fas fa-quote-left"></i> 每个人都是创作者 <i class="fas fa-quote-right"></i></span></h2>
+            <br>
             <p class="lead">世界上的每个人在享受着他人创作的娱乐内容的同时，都拥有着创作娱乐的创造力。 今后，机械性的作业将更多被机器与人工智能取代。人类将更加专注于创作。 我们的实名就是为您提供大展宏图的平台，强大的技术支持，让您无尽的创造力能够被全世界所发现。</p>
           </div>
           <div class="col-md-5 padding-10">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto animated rubberBand" src="img/icon-svg/box.svg" alt="version">
           </div>
         </div>
 
         <!-- <hr class="featurette-divider">-->
 
-        <div class="row featurette row-color2">
-          <div class="col-md-7 order-md-2 padding-10">
-            <h2 class="featurette-heading">事业内容<span class="text-muted">TODO</span></h2>
-            <p class="lead">MCN事业 (Multi Channel Network事业) 为创作者与发布平台建立联系，创作版权维护。</p>
-
-            <p class="lead">视频创作软件开发 为旗下创作者提供高性能的视频创作软件，提升创作效率。</p>
-              
-            <p class="lead">经济公司事业 旗下创作者的内容制作支援，日程管理，器材提供，直播频道的运营与技术支持。</p>
+        <div class="row featurette row-color2" id="business">
+          <div class="col-md-7 order-md-2 padding-10  animated fadeInDown">
+            <h1 class="featurette-heading">事业内容</h1>
+            <br>
+            <p class="lead"><i class="fas fa-bullseye"></i> MCN事业 (Multi Channel Network事业) 为创作者与发布平台建立联系，创作版权维护。</p>
+            <br>
+            <p class="lead"><i class="fas fa-bullseye"></i> 视频创作软件开发 为旗下创作者提供高性能的视频创作软件，提升创作效率。</p>
+            <br>
+            <p class="lead"><i class="fas fa-bullseye"></i> 经济公司事业 旗下创作者的内容制作支援，日程管理，器材提供，直播频道的运营与技术支持。</p>
           </div>
           <div class="col-md-5 order-md-1 padding-10">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="img/icon-svg/movie.svg" alt="Generic placeholder image">
           </div>
         </div>
 
         <!-- <hr class="featurette-divider">-->
 
-        <div class="row featurette row-color3">
-          <div class="col-md-7 padding-10">
-            <h2 class="featurette-heading">公司概况<span class="text-muted">TODO</span></h2>
-            <p class="lead">公司名：苏州宏龙文化传媒有限公司 所在地： （本社）苏州市吴中区临湖镇城北穿村路东排面30号 （日本办事处）日本东京都葛饰区4-20-21 员工人数：30人 资本金：500万元</p>
+        <div class="row featurette row-color3" id="company">
+          <div class="col-md-7 padding-10  animated fadeInDown">
+            <h1 class="featurette-heading">公司概况</h1>
+            <br>
+            <p class="lead">公司名：苏州宏龙文化传媒有限公司 </p>
+            <p class="lead">所在地： </p>
+            <p class="lead">（本社）苏州市吴中区临湖镇城北穿村路东排面30号 </p>
+            <p class="lead">（日本办事处）日本东京都葛饰区4-20-21</p>
+            <p class="lead">员工人数：30人</p>
+            <p class="lead">资本金：500万元</p>
           </div>
           <div class="col-md-5 padding-10">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="img/icon-svg/building.svg" alt="Generic placeholder image">
           </div>
         </div>
 
         <!-- <hr class="featurette-divider">-->
 
-        <div class="row featurette row-color4">
-          <div class="col-md-7 order-md-2 padding-10">
-            <h2 class="featurette-heading">招聘<span class="text-muted">TODO</span></h2>
+        <div class="row featurette row-color4"  id="recruit">
+          <div class="col-md-7 order-md-2 padding-10  animated fadeInDown">
+            <h1 class="featurette-heading">招聘</h1>
             <p class="lead">(待更新)</p>
           </div>
           <div class="col-md-5 order-md-1 padding-10">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="img/icon-svg/lion.svg" alt="Generic placeholder image">
           </div>
         </div>
 
         <!-- <hr class="featurette-divider">-->
 
-        <div class="row featurette row-color1">
-          <div class="col-md-7 padding-10">
-            <h2 class="featurette-heading">联系我们<span class="text-muted">TODO</span></h2>
-            <p class="lead">邮箱 honglong-corp@gmail.com 设置一个往以上邮箱发送邮件的form</p>
+        <div class="row featurette row-color1" id="contact">
+          <div class="col-md-7 padding-10  animated fadeInDown">
+            <h1 class="featurette-heading">联系我们</h1>
+            <br>
+
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Massage"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">SEND</button>
+            </form>
+
           </div>
           <div class="col-md-5 padding-10">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="img/icon-svg/send.svg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -180,14 +231,14 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <img src="img/logo/logo_black.png" alt="honglong">
+        <p class="m-0 text-center text-white">&copy; 苏州宏龙文化传媒有限公司</p>
       </div>
       <!-- /.container -->
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
 
   </body>
 
