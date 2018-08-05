@@ -114,7 +114,7 @@ body {
 @media (min-width:769px){
 
     .head-logo-div{
-        width: 14.3%;
+        width: 25%;
         text-align: center;
     }
 
@@ -146,8 +146,19 @@ body {
         height: 100%;
     }
 
+    .nav-item-logo {
+        width: 25%;
+        text-align: center;
+        display: table;
+        height: 100%;
+
+        
+        border-left: 1px solid rgba(170, 170, 170, 0.30);
+        border-bottom: 1px solid rgba(170, 170, 170, 0.30);
+    }
+
     .nav-item {
-        width: 14.2%;
+        width: 12.5%;
         text-align: center;
         display: table;
         height: 100%;
@@ -183,7 +194,7 @@ body {
     }
   
     .logo-top {
-      width: 80px;
+      width: auto;
       margin: auto;
     }
 
@@ -332,11 +343,15 @@ body {
 /****   ***********************************/
 
 .border-l-1 {
-    border-left: solid 10px #F4A11E;
+    padding-top: 30px;
+    border-left: solid 3px #F4A11E;
+    border-top: solid 3px #F4A11E;
 }
 
 .border-l-2 {
-    border-left: solid 10px #B2C839;
+    border-right: solid 3px #F4A11E;
+    border-bottom: solid 3px #F4A11E;
+    padding-bottom: 30px;
 }
 
 .border-l-3 {
@@ -354,6 +369,33 @@ body {
 .border-l-6 {
     border-left: solid 10px #67BD96;
 }
+
+/****   ***********************************/
+
+.bounce-1:before {
+    background: #F4A11E;
+}
+
+.bounce-2:before {
+    background: #B2C839;
+}
+
+.bounce-3:before{
+    background: #E0476E;
+}
+
+.bounce-4:before {
+    background: #2D7AE4;
+}
+
+.bounce-5:before {
+    background: #03739A;
+}
+
+.bounce-6:before {
+    background: #67BD96;
+}
+
 
 
 
@@ -411,10 +453,6 @@ body {
     color: rgba(170, 170, 170, 0.50);
 }
 
-.hvr-underline-from-center {
-    display: table;
-}
-
 .hr-global {
     border: 0;
     height: 1px;
@@ -441,6 +479,14 @@ body {
     text-align: center;
 }
 
-.test{
-    background: radial-gradient(#F2B9A1, #EA6264) ;
+.footer-inner{
+
+    display: flex;
+
+    flex-direction: row; /* 子要素をflexboxにより縦方向に揃える */
+    justify-content: center; /* 子要素をflexboxにより中央に配置する */
+    align-items: center;  /* 子要素をflexboxにより中央に配置する */
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

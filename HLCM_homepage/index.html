@@ -25,7 +25,8 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-
+     <!-- scrollreveal core JavaScript -->
+     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
@@ -51,6 +52,7 @@
             $(".navbar-collapse").removeClass('show');
           });
         });
+
         </script>
 
   </head>
@@ -61,27 +63,27 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <!-- <div class="container">-->
           <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item-logo">
                   <a class="nav-link" href="#S-">
                     <img class="logo-top" src="img/logo/logo_black.png" alt="honglong">
                   </a>
               </li>
-            <li class="nav-item hvr-underline-from-center">
+            <li class="nav-item hvr-bounce-to-top bounce-1">
                 <a class="nav-link" href="#S-"><i class="fas fa-star color-gray"></i> 最新资讯</a>
             </li>
-            <li class="nav-item hvr-underline-from-center">
+            <li class="nav-item hvr-bounce-to-top bounce-2">
               <a class="nav-link" href="#S-vision"><i class="far fa-eye color-gray"></i> 企业理念</a>
             </li>
-            <li class="nav-item  hvr-underline-from-center">
+            <li class="nav-item hvr-bounce-to-top bounce-3">
               <a class="nav-link" href="#S-business"><i class="fas fa-video color-gray"></i> 事业内容</a>
             </li>
-            <li class="nav-item hvr-underline-from-center">
+            <li class="nav-item hvr-bounce-to-top bounce-4">
               <a class="nav-link" href="#S-company"><i class="fas fa-building color-gray"></i> 公司概况</a>
             </li>
-            <li class="nav-item  hvr-underline-from-center">
+            <li class="nav-item hvr-bounce-to-top bounce-5">
               <a class="nav-link" href="#S-recruit"><i class="fas fa-user-secret color-gray"></i> 招聘信息</a>
             </li>
-            <li class="nav-item  hvr-underline-from-center">
+            <li class="nav-item hvr-bounce-to-top bounce-6">
               <a class="nav-link" href="#S-contact"><i class="fas fa-envelope color-gray"></i> 联系我们</a>
             </li>
           </ul>
@@ -134,16 +136,16 @@
         </a>
       </div>
     </header>
-
+    
     <div class="container marketing">
         <!-- START THE FEATURETTES -->
         <div class="row featurette" id="S-vision">
-          <div class="col-md-7 padding-10-left">
-            <h1 class="featurette-heading">企业理念</h1>
+          <div class="col-md-7 padding-10-left animate">
+            <h1 class="featurette-heading border-l-1 ">企业理念</h1>
             <br><br>
             <h2><span class="text-muted"><i class="fas fa-quote-left"></i> 每个人都是创作者 <i class="fas fa-quote-right"></i></span></h2>
             <br>
-            <p class="lead  border-l-1">世界上的每个人在享受着他人创作的娱乐内容的同时，都拥有着创作娱乐的创造力。 今后，机械性的作业将更多被机器与人工智能取代。人类将更加专注于创作。 我们的实名就是为您提供大展宏图的平台，强大的技术支持，让您无尽的创造力能够被全世界所发现。</p>
+            <p class="lead  border-l-2">世界上的每个人在享受着他人创作的娱乐内容的同时，都拥有着创作娱乐的创造力。 今后，机械性的作业将更多被机器与人工智能取代。人类将更加专注于创作。 我们的实名就是为您提供大展宏图的平台，强大的技术支持，让您无尽的创造力能够被全世界所发现。</p>
           </div>
           <div class="col-md-5 padding-10-right">
             <a class="hvr-buzz-out svg-m-size">
@@ -159,13 +161,13 @@
           <div class="col-md-7 order-md-2 padding-10-right">
             <h1 class="featurette-heading">事业内容</h1>
             <br><br>
-            <p class="lead border-l-2">经济公司事业</p>
+            <p class="lead border-l-3">经济公司事业</p>
             <p class="lead">(Multi Channel Network事业) 为创作者与发布平台建立联系，创作版权维护。</p>
             <br>
-            <p class="lead border-l-2">视频创作软件开发</p>
+            <p class="lead border-l-3">视频创作软件开发</p>
             <p class="lead">  为旗下创作者提供高性能的视频创作软件，提升创作效率。</p>
             <br>
-            <p class="lead border-l-2">经济公司事业</p>
+            <p class="lead border-l-3">经济公司事业</p>
             <p class="lead"> 旗下创作者的内容制作支援，日程管理，器材提供，直播频道的运营与技术支持。</p>
           </div>
           <div class="col-md-5 order-md-1 padding-10-left">
@@ -181,18 +183,15 @@
           <div class="col-md-7 padding-10-left">
             <h1 class="featurette-heading">公司概况</h1>
             <br><br>
-            <p class="lead border-l-3">公司名</p>
-            <p class="lead">苏州宏龙文化传媒有限公司</p>
+            <p class="lead border-l-4">公司名: 苏州宏龙文化传媒有限公司</p>
             <br>
-            <p class="lead border-l-3">所在地</p>
+            <p class="lead border-l-4">所在地</p>
             <p class="lead">  （本社）苏州市吴中区临湖镇城北穿村路东排面30号</p>
             <p class="lead">  （日本办事处）日本东京都葛饰区4-20-21</p>
             <br>
-            <p class="lead border-l-3">员工人数</p>
-            <p class="lead"> 30人</p>
+            <p class="lead border-l-4">员工人数: 30人</p>
             <br>
-            <p class="lead border-l-3">资本金</p>
-            <p class="lead"> 500万元</p>
+            <p class="lead border-l-4">资本金: 500万元</p>
           </div>
           <div class="col-md-5 padding-10-right">
             <a class="hvr-skew  svg-m-size">
@@ -224,11 +223,16 @@
 
             <form>
               <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted"></small>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="姓名"></textarea>
               </div>
               <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Massage"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea2" rows="1" placeholder="公司名"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="电子邮箱">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea3" rows="3" placeholder="送信内容"></textarea>
               </div>
               <div class="form-group-btn-outer">
                 <button type="submit" class="btn btn-lg btn-send">SEND</button>
@@ -249,14 +253,18 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <img src="img/logo/logo_black.png" alt="honglong">
-        <p class="text-center top-mar">&copy; 苏州宏龙文化传媒有限公司</p>
+      <div class="footer-inner">
+        <img src="img/logo/logo_black.png" alt="honglong" width="80px">&nbsp;
+        <p class="text-center top-mar">Copyright &copy; 2018 苏州宏龙文化传媒有限公司</p>
       </div>
       <!-- /.container -->
     </footer>
 
 
+      <script>
+        window.sr = ScrollReveal({ reset: true });
+        sr.reveal('.animate', { duration: "3000" });
+      </script>
 
 
   </body>
