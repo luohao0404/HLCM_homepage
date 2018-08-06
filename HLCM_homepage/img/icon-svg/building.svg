@@ -1,48 +1,21 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="_x31_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="width: 256px; height: 256px; opacity: 1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4B4B4B;}
+</style>
 <g>
-	<rect style="fill:#3C3F44;" width="512" height="512"/>
-	<polygon style="opacity:0.1;fill:#040000;" points="512,250.01 512,512 203.008,512 54.835,363.828 75.367,343.296 56.167,324.147 
-		159.641,220.673 210.79,271.821 310.528,172.033 386.457,247.962 448.205,186.215 	"/>
-	<g>
-		<g>
-			<g>
-				<g>
-					<polygon style="fill:#DDDDDE;" points="164.653,215.399 164.653,368.749 54.866,368.749 54.866,181.876 					"/>
-					<rect x="70.549" y="247.068" style="fill:#88BBC0;" width="78.432" height="15.503"/>
-					<rect x="77.673" y="278.913" style="fill:#88BBC0;" width="64.186" height="15.503"/>
-					<rect x="93.005" y="336.065" style="fill:#88BBC0;" width="33.521" height="32.683"/>
-				</g>
-				<g>
-					<polygon style="fill:#DDDDDE;" points="347.353,368.748 457.134,368.748 457.134,181.87 347.353,215.391 					"/>
-					<rect x="363.028" y="247.068" style="fill:#88BBC0;" width="78.432" height="15.503"/>
-					<rect x="370.151" y="278.913" style="fill:#88BBC0;" width="64.186" height="15.503"/>
-					<rect x="385.483" y="336.065" style="fill:#88BBC0;" width="33.521" height="32.683"/>
-				</g>
-			</g>
-			<g>
-				<polygon style="fill:#DDDDDE;" points="328.922,176.389 328.922,380.107 183.088,380.107 183.088,131.893 264.618,156.748 
-					311.694,171.122 				"/>
-				<g>
-					<rect x="242.09" y="212.023" style="fill:#88BBC0;" width="25.602" height="25.602"/>
-					<rect x="200.905" y="212.023" style="fill:#88BBC0;" width="25.602" height="25.602"/>
-					<rect x="285.502" y="212.023" style="fill:#88BBC0;" width="25.602" height="25.602"/>
-				</g>
-				<rect x="203.915" y="257.661" style="fill:#88BBC0;" width="104.179" height="20.593"/>
-				<rect x="213.377" y="299.959" style="fill:#88BBC0;" width="85.256" height="20.593"/>
-				<rect x="233.742" y="336.692" style="fill:#88BBC0;" width="44.524" height="43.411"/>
-			</g>
-		</g>
-		<polygon style="fill:#88BBC0;" points="164.655,368.748 164.655,347.341 143.248,368.748 		"/>
-		<g style="opacity:0.04;">
-			<polygon style="fill:#040000;" points="347.354,368.748 385.483,368.748 419.004,368.748 457.134,368.748 457.134,181.87 
-				347.354,215.39 			"/>
-			<polygon style="fill:#040000;" points="183.095,328.901 183.095,380.104 233.742,380.104 278.267,380.104 328.913,380.104 
-				328.913,183.083 			"/>
-		</g>
-	</g>
+	<path class="st0" d="M360.27,88.997V0H151.723v192.169H24.586V512h147.5h30.512h106.799h30.512h147.507V88.997H360.27z
+		 M446.69,471.276H339.907h-30.512H202.597h-30.512H65.311V232.893h127.145V40.724h127.089v89.005h20.362H446.69V471.276z" style="fill: rgb(39, 111, 224);"></path>
+	<rect x="240.052" y="86.778" class="st0" width="31.904" height="40.621" style="fill: rgb(39, 111, 224);"></rect>
+	<rect x="240.052" y="188.637" class="st0" width="31.904" height="40.621" style="fill: rgb(39, 111, 224);"></rect>
+	<rect x="240.052" y="290.496" class="st0" width="31.904" height="40.63" style="fill: rgb(39, 111, 224);"></rect>
+	<rect x="240.052" y="392.356" class="st0" width="31.904" height="40.628" style="fill: rgb(39, 111, 224);"></rect>
+	<rect x="375.804" y="186.522" class="st0" width="31.904" height="40.629" style="fill: rgb(39, 111, 224);"></rect>
+	<rect x="375.804" y="288.389" class="st0" width="31.904" height="40.621" style="fill: rgb(39, 111, 224);"></rect>
+	<rect x="375.804" y="390.248" class="st0" width="31.904" height="40.621" style="fill: rgb(39, 111, 224);"></rect>
+	<rect x="104.293" y="288.389" class="st0" width="31.912" height="40.621" style="fill: rgb(39, 111, 224);"></rect>
+	<rect x="104.293" y="390.248" class="st0" width="31.912" height="40.621" style="fill: rgb(39, 111, 224);"></rect>
 </g>
 </svg>

@@ -41,14 +41,18 @@ body {
         padding: 0rem 0rem;
 
     width: 100%; /* 長さ */
-    position: fixed; /* ヘッダーを固定(これが重要) */
+    position: none; /* ヘッダーを固定(これが重要) */
     top: 0; /* 固定する位置 */
     left: 0; /* 固定する位置 */
     right: 0;  /* 固定する位置 */
     background-color: #fff;
-    height: 10vh;
+    height: 6vh;
 
     letter-spacing: 2px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        top: 40vh;
     }
 
     .navbar-nav {
@@ -60,7 +64,7 @@ body {
         width: 100%;
         text-align: center;
         display: table;
-        height: 100%;
+        height: 200%;
 
 
         border-left: 1px solid rgba(170, 170, 170, 0.30);
@@ -104,21 +108,20 @@ body {
     }
 
     .logo-top {
-      width: 60px;
+      width: 100px;
       margin: auto;
     }
 
 
 
     .carousel-item {
-      height: 65vh;
-      min-height: 650px;
+      height: 40vh;
       background: no-repeat center center scroll;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      margin-top: 10vh;
+      margin-top: 45vh;
     }
 
     .row {
@@ -131,6 +134,16 @@ body {
         padding-top: 10vh;
         padding-bottom: 10vh;
 
+    }
+
+    .padding-10-left {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .padding-10-right {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .featurette-heading {
@@ -317,6 +330,20 @@ body {
     .lead {
         line-height:40px
     }
+
+
+
+    .padding-10-left {
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+
+    .padding-10-right {
+        padding-left: 0%;
+        padding-right: 15%;
+    }
+
+    
 
 
 }
@@ -521,16 +548,6 @@ body {
     padding-left: 0px;
 }
 
-.padding-10-left {
-    padding-left: 15%;
-    padding-right: 5%;
-}
-
-.padding-10-right {
-    padding-left: 0%;
-    padding-right: 15%;
-}
-
 .mag-10-left {
     margin-left: 15%;
     margin-right: 5%;
@@ -602,4 +619,10 @@ body {
 
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.img-fluid {
+    max-width: 66%;
+    height: auto;
+    opacity: 0.7;
 }
