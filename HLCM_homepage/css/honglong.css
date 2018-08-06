@@ -23,96 +23,6 @@ body {
 /***********   start phone  **************/
 @media (max-width:768px){
 
-    .navbar {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-  
-        width: 100%; /* 長さ */
-        position: fixed; /* ヘッダーを固定(これが重要) */
-        top: 0; /* 固定する位置 */
-        left: 0; /* 固定する位置 */
-        right: 0;  /* 固定する位置 */
-        background-color: #2E82C0;
-        letter-spacing: 2px;
-
-    }
-  
-    .logo-top {
-      width: 80px;
-    }
-
-    .navbar-expand-lg .navbar-collapse {
-        height: auto;
-    }
-
-    .carousel-item {
-        height: 50vh;
-        min-height: 300px;
-        margin-top: 75px;
-    }
-
-    .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: 0px;
-        margin-left: 0px;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    
-        /*height: 90vh;*/
-    }
-
-    .featurette-heading {
-       text-align: center;
-       letter-spacing: .5rem;
-       font-size: 2rem;
-       font-weight: none;
-    }
-
-    .h2, h2 {
-        font-size: 1.5rem;
-    }
-
-    .lead {
-        font-size: 1rem;
-        font-weight: 100;
-    }
-
-    .img-fluid {
-        max-width: 60%;
-        height: auto;
-    }
-
-    .carousel-caption {
-        position: absolute;
-        right: 15%;
-        bottom: 20px;
-        left: 15%;
-        z-index: 10;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #000;
-        text-align: center;
-    }
-
-    .h3, h3 {
-        font-size: 1.75rem;
-    }
-
-}/***********   end phone  **************/
-
-/***********   start PC  **************/
-@media (min-width:769px){
-
     .head-logo-div{
         width: 25%;
         text-align: center;
@@ -129,7 +39,7 @@ body {
         -ms-flex-pack: justify;
         justify-content: space-between;
         padding: 0rem 0rem;
-  
+
     width: 100%; /* 長さ */
     position: fixed; /* ヘッダーを固定(これが重要) */
     top: 0; /* 固定する位置 */
@@ -137,7 +47,7 @@ body {
     right: 0;  /* 固定する位置 */
     background-color: #fff;
     height: 10vh;
-  
+
     letter-spacing: 2px;
     }
 
@@ -147,23 +57,23 @@ body {
     }
 
     .nav-item-logo {
-        width: 25%;
+        width: 100%;
         text-align: center;
         display: table;
         height: 100%;
 
-        
+
         border-left: 1px solid rgba(170, 170, 170, 0.30);
         border-bottom: 1px solid rgba(170, 170, 170, 0.30);
     }
 
     .nav-item {
-        width: 12.5%;
+        width: 100%;
         text-align: center;
         display: table;
         height: 100%;
 
-        
+
         border-left: 1px solid rgba(170, 170, 170, 0.30);
         border-bottom: 1px solid rgba(170, 170, 170, 0.30);
     }
@@ -174,27 +84,27 @@ body {
     }
 
     .navbar-expand-lg .navbar-nav {
-        -ms-flex-direction: row;
-        flex-direction: row;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 
 
     .navbar-expand-lg .navbar-toggler {
         display: none;
     }
-  
+
     .collapse:not(.show) {
         display:block;
     }
-  
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
         height: 5vh;
     }
-  
+
     .logo-top {
-      width: auto;
+      width: 60px;
       margin: auto;
     }
 
@@ -202,7 +112,7 @@ body {
 
     .carousel-item {
       height: 65vh;
-      min-height: 300px;
+      min-height: 650px;
       background: no-repeat center center scroll;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -218,10 +128,9 @@ body {
         flex-wrap: wrap;
         margin-right: 0px;
         margin-left: 0px;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
-    
-        height: 90vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+
     }
 
     .featurette-heading {
@@ -258,7 +167,158 @@ body {
         line-height:40px
     }
 
-    
+
+
+}/***********   end phone  **************/
+
+/***********   start PC  **************/
+@media (min-width:769px){
+
+    .head-logo-div{
+        width: 25%;
+        text-align: center;
+    }
+
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0rem 0rem;
+
+    width: 100%; /* 長さ */
+    position: fixed; /* ヘッダーを固定(これが重要) */
+    top: 0; /* 固定する位置 */
+    left: 0; /* 固定する位置 */
+    right: 0;  /* 固定する位置 */
+    background-color: #fff;
+    height: 10vh;
+
+    letter-spacing: 2px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-item-logo {
+        width: 25%;
+        text-align: center;
+        display: table;
+        height: 100%;
+
+
+        border-left: 1px solid rgba(170, 170, 170, 0.30);
+        border-bottom: 1px solid rgba(170, 170, 170, 0.30);
+    }
+
+    .nav-item {
+        width: 12.5%;
+        text-align: center;
+        display: table;
+        height: 100%;
+
+
+        border-left: 1px solid rgba(170, 170, 170, 0.30);
+        border-bottom: 1px solid rgba(170, 170, 170, 0.30);
+    }
+
+    .nav-link {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+
+    .collapse:not(.show) {
+        display:block;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        height: 5vh;
+    }
+
+    .logo-top {
+      width: auto;
+      margin: auto;
+    }
+
+
+
+    .carousel-item {
+      height: 65vh;
+      min-height: 650px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-top: 10vh;
+    }
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+
+    }
+
+    .featurette-heading {
+       text-align: center;
+       letter-spacing: .5rem;
+       font-size: 3rem;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 20px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #000;
+        text-align: center;
+    }
+
+    .h3, h3 {
+        font-size: 2.75rem;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        max-width: 80%;
+    }
+
+    .lead {
+        line-height:40px
+    }
+
+
 }
 /***********   end PC  **************/
 
@@ -296,7 +356,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(0,0,0,.8);
+    color:#212529;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -342,17 +402,75 @@ body {
 
 /****   ***********************************/
 
-.border-l-1 {
+.border-1-1 {
     padding-top: 30px;
     border-left: solid 3px #F4A11E;
     border-top: solid 3px #F4A11E;
 }
 
-.border-l-2 {
+.border-1-2 {
     border-right: solid 3px #F4A11E;
     border-bottom: solid 3px #F4A11E;
     padding-bottom: 30px;
+    padding-right: 30px;
 }
+
+
+.border-2-1 {
+    padding-top: 30px;
+    border-left: solid 3px #E0476E;
+    border-top: solid 3px #E0476E;
+}
+
+.border-2-2 {
+    border-right: solid 3px #E0476E;
+    border-bottom: solid 3px #E0476E;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+
+.border-3-1 {
+    padding-top: 30px;
+    border-left: solid 3px #2D7AE4;
+    border-top: solid 3px #2D7AE4;
+}
+
+.border-3-2 {
+    border-right: solid 3px #2D7AE4;
+    border-bottom: solid 3px #2D7AE4;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+
+.border-4-1 {
+    padding-top: 30px;
+    border-left: solid 3px #E0476E;
+    border-top: solid 3px #E0476E;
+}
+
+.border-4-2 {
+    border-right: solid 3px #E0476E;
+    border-bottom: solid 3px #E0476E;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+
+.border-5-1 {
+    padding-top: 30px;
+    border-left: solid 3px #03739A;
+    border-top: solid 3px #03739A;
+}
+
+.border-5-2 {
+    border-right: solid 3px #03739A;
+    border-bottom: solid 3px #03739A;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
 
 .border-l-3 {
     border-left: solid 10px #E0476E;
@@ -372,30 +490,29 @@ body {
 
 /****   ***********************************/
 
-.bounce-1:before {
+.underline-1:before {
     background: #F4A11E;
 }
 
-.bounce-2:before {
+.underline-2:before {
     background: #B2C839;
 }
 
-.bounce-3:before{
+.underline-3:before{
     background: #E0476E;
 }
 
-.bounce-4:before {
+.underline-4:before {
     background: #2D7AE4;
 }
 
-.bounce-5:before {
+.underline-5:before {
     background: #03739A;
 }
 
-.bounce-6:before {
+.underline-6:before {
     background: #67BD96;
 }
-
 
 
 
@@ -465,10 +582,6 @@ body {
 
 .svg-m-size {
     max-width: 400px;
-}
-
-.padding-top-service{
-    padding-top:15vh;
 }
 
 .padding-top-info{

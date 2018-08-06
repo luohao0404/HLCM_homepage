@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
      <!-- scrollreveal core JavaScript -->
-     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+     <script src="vendor/jquery/scrollreveal.js"></script>
 
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
@@ -68,22 +68,22 @@
                     <img class="logo-top" src="img/logo/logo_black.png" alt="honglong">
                   </a>
               </li>
-            <li class="nav-item hvr-bounce-to-top bounce-1">
+            <li class="nav-item hvr-underline-from-center underline-4">
                 <a class="nav-link" href="#S-"><i class="fas fa-star color-gray"></i> 最新资讯</a>
             </li>
-            <li class="nav-item hvr-bounce-to-top bounce-2">
+            <li class="nav-item hvr-underline-from-center underline-4">
               <a class="nav-link" href="#S-vision"><i class="far fa-eye color-gray"></i> 企业理念</a>
             </li>
-            <li class="nav-item hvr-bounce-to-top bounce-3">
+            <li class="nav-item hvr-underline-from-center underline-4">
               <a class="nav-link" href="#S-business"><i class="fas fa-video color-gray"></i> 事业内容</a>
             </li>
-            <li class="nav-item hvr-bounce-to-top bounce-4">
+            <li class="nav-item hvr-underline-from-center underline-4">
               <a class="nav-link" href="#S-company"><i class="fas fa-building color-gray"></i> 公司概况</a>
             </li>
-            <li class="nav-item hvr-bounce-to-top bounce-5">
+            <li class="nav-item hvr-underline-from-center underline-4">
               <a class="nav-link" href="#S-recruit"><i class="fas fa-user-secret color-gray"></i> 招聘信息</a>
             </li>
-            <li class="nav-item hvr-bounce-to-top bounce-6">
+            <li class="nav-item hvr-underline-from-center underline-4">
               <a class="nav-link" href="#S-contact"><i class="fas fa-envelope color-gray"></i> 联系我们</a>
             </li>
           </ul>
@@ -136,16 +136,16 @@
         </a>
       </div>
     </header>
-    
+
     <div class="container marketing">
         <!-- START THE FEATURETTES -->
         <div class="row featurette" id="S-vision">
           <div class="col-md-7 padding-10-left animate">
-            <h1 class="featurette-heading border-l-1 ">企业理念</h1>
+            <h1 class="featurette-heading border-1-1 ">企业理念</h1>
             <br><br>
             <h2><span class="text-muted"><i class="fas fa-quote-left"></i> 每个人都是创作者 <i class="fas fa-quote-right"></i></span></h2>
             <br>
-            <p class="lead  border-l-2">世界上的每个人在享受着他人创作的娱乐内容的同时，都拥有着创作娱乐的创造力。 今后，机械性的作业将更多被机器与人工智能取代。人类将更加专注于创作。 我们的实名就是为您提供大展宏图的平台，强大的技术支持，让您无尽的创造力能够被全世界所发现。</p>
+            <p class="lead  border-1-2">世界上的每个人在享受着他人创作的娱乐内容的同时，都拥有着创作娱乐的创造力。 今后，机械性的作业将更多被机器与人工智能取代。人类将更加专注于创作。 我们的实名就是为您提供大展宏图的平台，强大的技术支持，让您无尽的创造力能够被全世界所发现。</p>
           </div>
           <div class="col-md-5 padding-10-right">
             <a class="hvr-buzz-out svg-m-size">
@@ -155,20 +155,16 @@
           </div>
         </div>
 
-        <hr class="hr-global">
-
-        <div class="row featurette padding-top-service" id="S-business">
-          <div class="col-md-7 order-md-2 padding-10-right">
-            <h1 class="featurette-heading">事业内容</h1>
+        <div class="row featurette" id="S-business">
+          <div class="col-md-7 order-md-2 padding-10-right animate">
+            <h1 class="featurette-heading border-2-1 ">事业内容</h1>
             <br><br>
-            <p class="lead border-l-3">经济公司事业</p>
-            <p class="lead">(Multi Channel Network事业) 为创作者与发布平台建立联系，创作版权维护。</p>
-            <br>
-            <p class="lead border-l-3">视频创作软件开发</p>
-            <p class="lead">  为旗下创作者提供高性能的视频创作软件，提升创作效率。</p>
-            <br>
-            <p class="lead border-l-3">经济公司事业</p>
-            <p class="lead"> 旗下创作者的内容制作支援，日程管理，器材提供，直播频道的运营与技术支持。</p>
+            <p class="lead border-2-2"><i class="fas fa-circle"></i> 经济公司事业<br>
+            (Multi Channel Network事业) 为创作者与发布平台建立联系，创作版权维护。<br>
+            <i class="fas fa-circle"></i> 视频创作软件开发<br>
+            为旗下创作者提供高性能的视频创作软件，提升创作效率。<br>
+            <i class="fas fa-circle"></i> 经济公司事业<br>
+            旗下创作者的内容制作支援，日程管理，器材提供，直播频道的运营与技术支持。</p>
           </div>
           <div class="col-md-5 order-md-1 padding-10-left">
             <a class="hvr-grow  svg-m-size">
@@ -177,21 +173,17 @@
           </div>
         </div>
 
-        <hr class="hr-global">
-
-        <div class="row featurette padding-top-info" id="S-company">
-          <div class="col-md-7 padding-10-left">
-            <h1 class="featurette-heading">公司概况</h1>
+        <div class="row featurette" id="S-company">
+          <div class="col-md-7 padding-10-left animate">
+            <h1 class="featurette-heading border-3-1 ">公司概况</h1>
             <br><br>
-            <p class="lead border-l-4">公司名: 苏州宏龙文化传媒有限公司</p>
-            <br>
-            <p class="lead border-l-4">所在地</p>
-            <p class="lead">  （本社）苏州市吴中区临湖镇城北穿村路东排面30号</p>
-            <p class="lead">  （日本办事处）日本东京都葛饰区4-20-21</p>
-            <br>
-            <p class="lead border-l-4">员工人数: 30人</p>
-            <br>
-            <p class="lead border-l-4">资本金: 500万元</p>
+            <p class="lead border-3-2"><i class="fas fa-circle"></i>公司名: 苏州宏龙文化传媒有限公司<br>
+              <i class="fas fa-circle"></i>所在地<br>
+              （本社）苏州市吴中区临湖镇城北穿村路东排面30号<br>
+              （日本办事处）日本东京都葛饰区4-20-21<br>
+              <i class="fas fa-circle"></i>员工人数: 30人<br>
+              <i class="fas fa-circle"></i>资本金: 500万元<br>
+            </p>
           </div>
           <div class="col-md-5 padding-10-right">
             <a class="hvr-skew  svg-m-size">
@@ -200,12 +192,10 @@
           </div>
         </div>
 
-        <hr class="hr-global">
-
         <div class="row featurette"  id="S-recruit">
-          <div class="col-md-7 order-md-2 padding-10-right">
-            <h1 class="featurette-heading">招聘</h1>
-            <p class="lead">(待更新)</p>
+          <div class="col-md-7 order-md-2 padding-10-right animate">
+            <h1 class="featurette-heading border-4-1">招聘</h1>
+            <p class="lead border-4-2">(待更新)</p>
           </div>
           <div class="col-md-5 order-md-1 padding-10-left">
             <a class="hvr-buzz  svg-m-size">
@@ -214,14 +204,15 @@
           </div>
         </div>
 
-        <hr class="hr-global">
-
         <div class="row featurette" id="S-contact">
-          <div class="col-md-7 padding-10-left">
-            <h1 class="featurette-heading">联系我们</h1>
+          <div class="col-md-7 padding-10-left animate">
+            <h1 class="featurette-heading  border-5-1">联系我们</h1>
             <br>
 
+            <div class=" border-5-2">
             <form>
+
+
               <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="姓名"></textarea>
               </div>
@@ -238,6 +229,7 @@
                 <button type="submit" class="btn btn-lg btn-send">SEND</button>
               </div>
             </form>
+            </div>
 
           </div>
           <div class="col-md-5 padding-10-right">
