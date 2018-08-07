@@ -131,25 +131,31 @@ body {
         flex-wrap: wrap;
         margin-right: 0px;
         margin-left: 0px;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
 
     }
 
     .padding-10-left {
         padding-left: 10%;
         padding-right: 10%;
+        padding-bottom: 3vh;
     }
 
     .padding-10-right {
         padding-left: 10%;
         padding-right: 10%;
+        padding-bottom: 3vh;
     }
 
     .featurette-heading {
        text-align: center;
        letter-spacing: .5rem;
-       font-size: 3rem;
+       font-size: 2rem;
+    }
+
+    .h2, h2 {
+      font-size: 1.5rem;
     }
 
     .carousel-caption {
@@ -177,7 +183,23 @@ body {
     }
 
     .lead {
-        line-height:40px
+        line-height:40px;
+        font-size:1rem;
+    }
+
+    .footer {
+      font-size: 0.8rem;
+    }
+
+    .img-fluid {
+      max-width: 33%;
+      height: auto;
+      opacity: 0.66;
+    }
+
+    .phone-center {
+      text-align: center;
+      vertical-align: middle;
     }
 
 
@@ -211,6 +233,7 @@ body {
     right: 0;  /* 固定する位置 */
     background-color: #fff;
     height: 10vh;
+    min-height: 90px;
 
     letter-spacing: 2px;
     }
@@ -343,7 +366,21 @@ body {
         padding-right: 15%;
     }
 
-    
+
+    .img-fluid {
+        max-width: 66%;
+        height: auto;
+        opacity: 0.66;
+    }
+
+
+
+    .phone-center {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+
 
 
 }
@@ -619,10 +656,4 @@ body {
 
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.img-fluid {
-    max-width: 66%;
-    height: auto;
-    opacity: 0.7;
 }
